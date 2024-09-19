@@ -11,6 +11,7 @@ const port = process.env.PORT || 3000;
 //express config
 const viewsPath = path.join(__dirname, "../views/templates");
 const publicPath = path.join(__dirname, "../public");
+
 const partialsPath = path.join(__dirname, "../views/partials");
 
 // Set the view engine to Handlebars
