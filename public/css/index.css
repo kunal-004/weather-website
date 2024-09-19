@@ -1,0 +1,133 @@
+body {
+  color: #222;
+  font-family: "Roboto", sans-serif;
+  background-color: #f0f4f8;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+  line-height: 1.6;
+
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
+}
+
+h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+  text-align: center;
+}
+
+header {
+  background-color: #e9eef3;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  margin-top: 24px;
+  text-align: center;
+  background-color: #e9eef3;
+  border-radius: 8px;
+  color: #333; /* Dark gray text */
+}
+
+footer {
+  color: #555;
+  border-top: 1px solid #ccc;
+  margin-top: 40px;
+  padding: 20px 0;
+  text-align: center;
+  background-color: #e9eef3;
+}
+
+header a {
+  color: #888888;
+  margin-right: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.profile {
+  width: 400px;
+  height: auto;
+  margin: 20px auto;
+  display: block;
+  border-radius: 900px;
+}
+
+header a:hover {
+  color: #0056b3;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #e9eef3;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px; /* Limits form width */
+}
+
+/* Style the input field */
+input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus effect */
+input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Style the button */
+button {
+  background-color: #8888;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #888;
+}
+
+/* Responsive adjustment */
+@media (max-width: 500px) {
+  form {
+    width: 100%;
+    padding: 10px;
+  }
+}

@@ -1,0 +1,28 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="icon" href="/assets/weather.png" />
+    <title>Weather</title>
+  </head>
+
+  <body>
+      <div class="main-content">
+         {{>header}}
+        <p> Welcome to our Weather Forecast! Stay ahead of the weather with real-time updates for any location around the world. Simply enter your city to get accurate forecasts including current temperature, chance of precipitation, and detailed summaries. Our app provides all the essential weather information at your fingertips.</p>
+
+        <form>
+          <input placeholder="Location...">
+          <button type="submit">Get Weather</button>
+        </form>
+
+        <p id="message-1"></p>
+        <p id="message-2"></p>
+
+      </div>
+
+      {{>footer}}
+     <script src="/js/server.js"></script>
+  </body>
+</html>
