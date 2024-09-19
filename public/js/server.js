@@ -1,11 +1,3 @@
-console.log("GOAT");
-
-// fetch("https://puzzle.mead.io/puzzle").then((response) => {
-//   response.json().then((data) => {
-//     console.log(data);
-//   });
-// });
-
 const weatherForm = document.querySelector("form");
 const searchInput = document.querySelector("input");
 const msg1 = document.querySelector("#message-1");
