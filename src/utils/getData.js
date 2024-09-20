@@ -18,7 +18,6 @@ const getData = async (lat, lng, name, callback) => {
         summary: `${data.daily.data[0].summary}`,
         report: `It is currently ${currentData.temperature} degrees now. There is ${currentData.precipProbability}% of rain.`,
       }
-      // `Weather Forecast of ${name}: ${data.daily.data[0].summary}, It is currently ${currentData.temperature} degrees now. There is ${currentData.precipProbability}% of rain.`
     );
   }
 };

@@ -30,14 +30,14 @@ app.get("/", (req, res) => {
 
 app.get("/about", (req, res) => {
   res.render("about", {
-    title: "About Me",
+    title: "About",
     name: "kunal Pitale",
   });
 });
 
 app.get("/help", (req, res) => {
   res.render("help", {
-    title: "Need Help?",
+    title: "Need Help ?",
     meassage:
       "If you're looking for weather information, simply enter the city name in the search bar to get the latest forecast including temperature, precipitation chances, and more. Stay updated on the weather before heading out!",
     name: "kunal Pitale",
